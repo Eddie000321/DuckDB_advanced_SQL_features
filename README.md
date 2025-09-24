@@ -9,8 +9,12 @@ This repository is a personal sandbox for rehearsing the SQL exercises from the 
 
 ## Repository Layout
 - `q1_sample.duckdb.sql` – `q6_upsert.duckdb.sql`: DuckDB SQL scripts for each exercise.
-- `lahman-cmudb2025.db`: Lahman database snapshot distributed with the assignment.
-- (Local-only) Assignment PDF: stored outside of version control to respect distribution policies.
+- `lahman-cmudb2025.db` (local only): Lahman database snapshot distributed with the assignment; ignored by Git.
+- Assignment PDFs (local only): kept outside of version control to respect distribution policies.
+
+## Version Control Notes
+- `.gitignore` is configured to exclude all `*.pdf` and `*.db` files so course handouts and database snapshots remain private.
+- Place required datasets and handouts beside the scripts locally; Git will prevent them from being committed.
 
 ## How to Run the Queries
 1. Install the DuckDB CLI and open a terminal in the project root.

@@ -1,0 +1,6 @@
+# Course-provided files kept locally only
+*.pdf
+*.db
+
+# macOS metadata
+.DS_Store
